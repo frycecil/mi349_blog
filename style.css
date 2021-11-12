@@ -50,7 +50,7 @@ article{
 p{
     color: rgb(50, 19, 37);
     width:460px;
-     
+    
 }
 
 img {
@@ -61,4 +61,10 @@ img {
     float: right;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+@media (max-width: 400px){
+  main{
+    background-color: black;
+  }
 }
