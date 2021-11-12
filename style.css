@@ -1,70 +1,104 @@
 
-html{
-    background-color: rgb(95, 15, 64);
-}
+    html{
+        background-color: rgb(95, 15, 64);
+    }
 
-nav.sticky{
-    position: sticky;
-    top: 0;
-    background-color:rgb(50, 19, 37);
-    padding: 1px;
-}
-li.horizontal{
-    display: inline;
-    position: sticky;
-    margin: 58px;
-    background-color: rgb(224, 214, 138);
-    padding-top: 10px;
-    padding-left: 70px;
-    padding-bottom: 10px;
-    padding-right: 70px;
-}
+    nav.sticky{
+        position: sticky;
+        top: 0;
+        background-color:rgb(50, 19, 37);
+        padding: 1px;
+    }
+    li.horizontal{
+        display: inline-block;
+        position: sticky;
+        background-color: rgb(224, 214, 138);
+        padding-inline: 50px;
+        margin-left: 120px
+        
 
-h1#blog{
-    font-size: 60px;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-    color: rgb(50, 19, 37);
-    
-}
+    }
+
+    h1#blog{
+        font-size: 60px;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        color: rgb(50, 19, 37);
+        
+    }
+        .table{
+        background-color: rgb(224, 214, 138);
+        margin-left: 90px;
+    }
+
+    body{
+        width: 1000px;
+        margin: 0 auto;
+        background-color: rgb(203, 121, 58);
+        padding: 0 20px 20px 20px;
+        border: 5px solid rgb(50, 19, 37);
+    }
+    main{
+        display: flex;
+    }
+    article{
+        background-color: rgb(252, 220, 77);
+        padding: 20px;
+    }
+    p{
+        color: rgb(50, 19, 37);
+        width:460px;
+        
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    .img-container{
+        float: right;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    @media (max-width: 400px){
+        nav.sticky{
+            position: sticky;
+            display: inline-block;
+            top: 0;
+            background-color:rgb(50, 19, 37);
+            padding: 0px;
+        }
+        li.horizontal{
+            display: inline;
+            margin: 41.5px;
+            background-color: rgb(224, 214, 138);
+            padding: 4px;
+        }
+
+        main{
+        display: inline;
+    }
+
+    body{
+        width: 450px;
+    }
+
+    p{
+        width: 385px;
+    }
+
+    img{
+        display: inline;
+    }
+    .img-container{
+        width: 200px;
+        float: left;
+    }
+
     .table{
-    background-color: rgb(224, 214, 138);
-    margin-left: 90px;
- }
+        margin-left: 70px;
+    }
 
-body{
-    width: 1000px;
-    margin: 0 auto;
-    background-color: rgb(203, 121, 58);
-    padding: 0 20px 20px 20px;
-    border: 5px solid rgb(50, 19, 37);
-}
-main{
-    display: flex;
-}
-article{
-    background-color: rgb(252, 220, 77);
-    padding: 20px;
-}
-p{
-    color: rgb(50, 19, 37);
-    width:460px;
-    
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-  }
-.img-container{
-    float: right;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-@media (max-width: 400px){
-  main{
-    background-color: black;
-  }
-}
+    }
